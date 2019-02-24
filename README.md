@@ -1,11 +1,14 @@
-QUIZ BOARD
+### QUIZ BOARD
 By Sharon Maswai
 
-Description
+## Date
+24/2/2019
 
-This is a quiz, in form format, whereby, you select the answers for the questions provided. On submission, your score will be displayed with additional comments regarding your performance.
+## Description
 
-Setup/Installation Requirements
+This is a web app that allows you to get a Javascript quiz so as to gauge yourself.  You select the answers for the questions provided and then on submission, your score will be displayed with additional comments regarding your performance.
+
+## Setup/Installation Requirements
 
 If you wish to clone this quiz repository on your computer, you will first have to install git.
 
@@ -14,19 +17,18 @@ Using the terminal enter the following clonning command~ git clone (https://shar
 On entering the above command, you will have the
 
 
-
-Bugs
+## Bugs
 
 At the time of deployment, there were no known bug, however if you come across any, feel free to contact me through the email address provided below.
 
 
-Languages and technologies used
+## Languages and technologies used
 
 CSS, bootstrap HTML, Git, Javascript and jquery.
 
-Contact Information
+## Contact Information
 
 email address: chepsharonmaswai@gmail.com github: sharonmaswai
 
-License
+## License
 Copyright (2019) Maswai
