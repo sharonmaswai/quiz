@@ -9,8 +9,8 @@ $("#submit").click(function() {
   var answer3=$("input:radio[name=ans3]:checked").val();
   var answer4=$("input:radio[name=ans4]:checked").val();
   var answer5=$("input:radio[name=ans5]:checked").val();
+  var correct=[correct1,correct2, correct3, correct4, correct5];
 
-var  correct1, correct2, correct3, correct4, correct5
   if (answer1.toString() === "toString()") {
     correct1 = 20;
   } else {
@@ -36,7 +36,8 @@ var  correct1, correct2, correct3, correct4, correct5
   } else {
     correct5 = 0;
   }
-  add(correct1,correct2, correct3, correct4, correct5);
-  $
+  var total=(correct1+correct2+correct3+ correct4+ correct5)
+  document.getElementById('result').innerHTML="You have scored " + total + " %";
+
 });
 });
