@@ -12,16 +12,26 @@ $("button#submit").click(function() {
   var sum=(answer1+answer3+answer2+answer4+answer5);
 
 if (sum>= 80){
-  document.getElementById("result").innerHTML="You have"+ sum +"%";
+  document.getElementById("result").innerHTML="You have " + sum + " %";
   document.getElementById("comment").innerHTML="Congratulations!! You have mastered Javascript."
 
 } else if (sum>= 50) {
-  document.getElementById("result").innerHTML="You have"+ sum +"%";
+  document.getElementById("result").innerHTML="You have " + sum + " %";
   document.getElementById("comment").innerHTML="That was a fair attempt.";
 
 } else {
-  document.getElementById("result").innerHTML="You have"+ sum +"%";
+  document.getElementById("result").innerHTML="You have " + sum +  " %";
   document.getElementById("comment").innerHTML="You failed the test, please retake the test.";
 }
+});
+$("button#submit").click(function(){
+  $("#test").hide();
+
+});
+$("h2#retake").click(function(){
+  $("#comment").hide();
+  $("#result").hide();
+  $("#test").show();
+
 });
 });
