@@ -36,7 +36,7 @@ $("#submit").click(function() {
   } else {
     correct5 = 0;
   }
-  var total=(correct1+correct2+correct3+ correct4+ correct5)
+  var total=(correct1+correct2+correct3+ correct4+ correct5);
   document.getElementById('result').innerHTML="You have scored " + total + " %";
 
 });
