@@ -17,11 +17,13 @@ h2 {
   display: none;
 }
 #score {
-  width: 300px;
+  display: none;
+  width: 600x;
   height: 150px;
-  border-radius: 10%;
-  background color: black;
-  color: orange;
+  border-radius: 1%;
+  background-color: #FFA500;
+  color: black;
   font-weight: bold;
+  font-size: 30;
   font-style: oblique;
   font-family: monospace;

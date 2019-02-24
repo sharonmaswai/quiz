@@ -1,8 +1,11 @@
 $(document).ready(function() {
+
   $("h2#start").click(function(){
     $("#test").fadeToggle("30000");
-});
-$("button#submit").click(function() {
+    $("#score").hide();
+  });
+
+  $("button#submit").click(function() {
 
   var answer1=parseInt($("input:radio[name=ans1]:checked").val());
   var answer2=parseInt($("input:radio[name=ans2]:checked").val());
@@ -15,23 +18,29 @@ if (sum>= 80){
   document.getElementById("result").innerHTML="You have " + sum + " %";
   document.getElementById("comment").innerHTML="Congratulations!! You have mastered Javascript."
 
+
 } else if (sum>= 50) {
   document.getElementById("result").innerHTML="You have " + sum + " %";
   document.getElementById("comment").innerHTML="That was a fair attempt.";
 
-} else {
+} else if  (sum<50) {
   document.getElementById("result").innerHTML="You have " + sum +  " %";
   document.getElementById("comment").innerHTML="You failed the test, please retake the test.";
-}
+
+  }
+
+else {
+  document.getElementById("comment").innerHTML="You have not answered all the question.";
+
+  }
+
 });
 $("button#submit").click(function(){
   $("#test").hide();
+  $("#score").show();
 
 });
-$("h2#retake").click(function(){
-  $("#comment").hide();
-  $("#result").hide();
-  $("#test").show();
 
-});
+
+
 });
