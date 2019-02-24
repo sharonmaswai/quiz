@@ -16,3 +16,8 @@ h2 {
 #test {
   display: none;
 }
+#score {
+  width: 100%;
+  height: 40%;
+  background-image: url(https://codecondo.com/wp-content/uploads/2014/08/10-Tips-for-Becoming-a-Better-JavaScript-Developer.jpg);
+}
