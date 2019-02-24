@@ -1,7 +1,3 @@
-$("document").ready(function(){
-  $("h2#start").click(function(){
-    $("#test").fadeToggle("slow");
-});
 $("#submit").click(function() {
 
   var answer1=$("input:radio[name=ans1]:checked").val();
@@ -37,7 +33,6 @@ var correct1, correct2, correct3, correct4, correct5
     correct5 = 0;
   }
   add(correct1,correct2, correct3, correct4, correct5);
-});
 });
 var add = function(correct1,correct2, correct3, correct4, correct5) {
     var result = correct1+correct2+ correct3+ correct4+ correct5;
