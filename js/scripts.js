@@ -40,5 +40,5 @@ $("#submit").click(function() {
 });
 var add = function(correct1,correct2, correct3, correct4, correct5) {
     var result = correct1+correct2+ correct3+ correct4+ correct5;
-    $("#total").text("You have scored " + result+ "%");
+    $("#total").alert("You have scored " + result+ "%");
 };
