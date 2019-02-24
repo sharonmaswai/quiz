@@ -16,6 +16,7 @@ h2 {
 #test {
   display: none;
 }
+<<<<<<< HEAD
 #score {
   display: none;
   width: 600x;
@@ -27,3 +28,5 @@ h2 {
   font-size: 30;
   font-style: oblique;
   font-family: monospace;
+=======
+>>>>>>> master
