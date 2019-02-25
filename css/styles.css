@@ -16,17 +16,16 @@ h2 {
 #test {
   display: none;
 }
-<<<<<<< HEAD
+
 #score {
   display: none;
-  width: 600x;
+  width: 100%;
   height: 150px;
   border-radius: 1%;
-  background-color: #FFA500;
-  color: black;
+  background-color:black;
+  color: #FFA500;
   font-weight: bold;
   font-size: 30;
   font-style: oblique;
   font-family: monospace;
-=======
->>>>>>> master
+}
